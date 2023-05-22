@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .cover {
     object-fit: fill;
     object-position: 50% 50%;
@@ -119,12 +125,50 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    padding: 100px;
 }
 
-.footer {
+
+/* .px-3 h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+} */
+
+.px-3 {
+    text-align: center;
+    padding: 100px;
+}
+
+/* .container2 .footer p {
+    margin-bottom: 30px;
+} */
+
+/* ABAIXO COVER */
+
+.cover-container {
+  max-width: 42em;
+}
+
+footer p {
     margin-top: 10px;
 }
 
-.container .footer a {
-    margin-bottom: 30px;
-}
+/* ABAIXO PARA PÁGINA DE FORMULÁRIO */
+
+.container {
+    max-width: 960px;
+  }
+
+  .Formulario {
+    text-align: left;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .Formulario h4 {
+    color: red;
+    font-weight: bold;
+  }
+
+  
